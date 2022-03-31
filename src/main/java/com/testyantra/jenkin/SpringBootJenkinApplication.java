@@ -19,7 +19,7 @@ public class SpringBootJenkinApplication {
 	}
 
 	public static void main(String[] args) {
-		LOGGER.info("Application Executed....");
+		LOGGER.info("Application Executed in jenkin Branch....");
 		SpringApplication.run(SpringBootJenkinApplication.class, args);
 	}
 
