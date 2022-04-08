@@ -34,7 +34,7 @@ pipeline {
         stage('Archiving') {
             steps {
                 echo 'Archiving An Application  archiveArtifacts **/target/*.jar'
-                archiveArtifacts artifacts: 'screenshots/**,build/test/results/*.xml', allowEmptyArchive: true
+                archiveArtifacts artifacts: '**/target/*.jar', allowEmptyArchive: true
             }
         }
     }
